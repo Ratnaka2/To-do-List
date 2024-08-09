@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Saver</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Word Saver</h1>
+        <form id="wordForm">
+            <input type="text" id="word" placeholder="Word" required>
+            <input type="text" id="pronunciation" placeholder="Pronunciation" required>
+            <textarea id="meaning" placeholder="Meaning" required></textarea>
+            <input type="text" id="source" placeholder="Where you found it">
+            <button type="submit">Save Word</button>
+        </form>
+        <div id="wordList"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
